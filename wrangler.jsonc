@@ -1,0 +1,11 @@
+{
+	"name": "lunch-bot",
+	"main": "src/index.js",
+	"compatibility_date": "2026-03-01",
+	"workers_dev": false,
+	"triggers": {
+		"crons": [
+			"15 2 * * MON-FRI", // 월~금 UTC 02:15 (한국시간 오전 11:15)
+		],
+	},
+}
